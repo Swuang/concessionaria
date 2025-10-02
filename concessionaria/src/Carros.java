@@ -41,20 +41,24 @@ public class Carros extends Veiculo {
      @Override
     public void salvar() {
         System.out.println("Carro salva com sucesso!");
+        super.salvar();
     }
 
     @Override
     public void alterar() {
         System.out.println("Carro alterada com sucesso!");
+        super.salvar();
     }
 
     @Override
     public void excluir() {
         System.out.println("Carro excluída com sucesso!");
+        super.salvar();
     }
 
     @Override
     public void pesquisar() {
         System.out.println("Carro pesquisada com sucesso!");
+        super.salvar();
     }
 }

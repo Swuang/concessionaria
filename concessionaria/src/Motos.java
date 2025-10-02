@@ -21,21 +21,25 @@ public class Motos extends Veiculo {
     @Override
     public void salvar() {
         System.out.println("Moto salva com sucesso!");
+        super.salvar();
     }
 
     @Override
     public void alterar() {
         System.out.println("Moto alterada com sucesso!");
+        super.salvar();
     }
 
     @Override
     public void excluir() {
         System.out.println("Moto excluída com sucesso!");
+        super.salvar();
     }
 
     @Override
     public void pesquisar() {
         System.out.println("Moto pesquisada com sucesso!");
+        super.salvar();
     }
 
 }
