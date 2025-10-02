@@ -2,6 +2,15 @@ public class Garagem {
     private String nome;
     private String cidade;
 
+    public Garagem() {
+        
+    }
+
+    public Garagem(String nome, String cidade) {
+        this.nome = nome;
+        this.cidade = cidade;
+    }
+    
     public String getNome() {
         return nome;
     }

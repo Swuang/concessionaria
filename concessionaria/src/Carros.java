@@ -4,6 +4,16 @@ public class Carros extends Veiculo {
     private Integer qtde_marcha;
     private String opicionais;
     
+    public Carros() {
+        
+    }
+    
+    public Carros(Integer motorizacao_cv, Integer qtde_marcha, String opicionais) {
+        this.motorizacao_cv = motorizacao_cv;
+        this.qtde_marcha = qtde_marcha;
+        this.opicionais = opicionais;
+    }
+    
     public Integer getMotorizacao_cv() {
         return motorizacao_cv;
     }
@@ -31,24 +41,20 @@ public class Carros extends Veiculo {
      @Override
     public void salvar() {
         System.out.println("Carro salva com sucesso!");
-        super.salvar();
     }
 
     @Override
     public void alterar() {
         System.out.println("Carro alterada com sucesso!");
-        super.alterar();
     }
 
     @Override
     public void excluir() {
         System.out.println("Carro excluída com sucesso!");
-        super.excluir();
     }
 
     @Override
     public void pesquisar() {
         System.out.println("Carro pesquisada com sucesso!");
-        super.pesquisar();
     }
 }
